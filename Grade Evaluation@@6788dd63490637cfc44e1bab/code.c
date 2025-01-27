@@ -11,7 +11,7 @@ int main() {
     }else if(as==D){
         printf("Below Average");
     }else{
-        printf("False")
+        printf("False");
     }
     return 0;
 }
