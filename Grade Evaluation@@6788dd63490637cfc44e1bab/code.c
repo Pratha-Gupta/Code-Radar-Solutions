@@ -3,15 +3,15 @@ int main() {
     char as;
     scanf("%c",&as);
     if(as==A){
-        printf("Excellent");
+        printf("Excellent\n");
     }else if(as==B){
-        printf("Good");
+        printf("Good\n");
     }else if(as==C){
-        printf("Average");
+        printf("Average\n");
     }else if(as==D){
-        printf("Below Average");
+        printf("Below Average\n");
     }else{
-        printf("False");
+        printf("False\n");
     }
     return 0;
 }
