@@ -2,15 +2,15 @@
 int main() {
     int a;
     if(a>=90 ){
-        printf("A");
+        printf("A\n");
     }else if(a>=80 && a<90){
-        printf("B");
+        printf("B\n");
     }else if(a>=70 && a<80){
-        printf("C");
+        printf("C\n");
     }else if(a>=60 && a<70){
-        printf("D");
+        printf("D\n");
     }else{
-        printf("F");
+        printf("F\n");
     }
     
     return 0;
