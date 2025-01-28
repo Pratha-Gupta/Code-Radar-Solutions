@@ -2,9 +2,9 @@
 int main() {
     char letter;
     scanf("%c",&letter);
-    if(isupper(letter)){
+    if(letter>=A && letter<=Z){
         printf("Uppercase");
-    }else if(islower(letter)){
+    }else if(letter>=a && letter<=z){
         printf("Lowercase");
     }else{
         printf("Not an alphabet");
