@@ -2,14 +2,14 @@
 int main() {
     char sign;
     scanf("%c",&sign);
-    if(sign=='R'){
-        printf("Stop\n");
+    if(sign =='R'){
+        printf("Stop");
     }else if(sign=='G'){
-        printf("Go\n");
+        printf("Go");
     }else if(sign=='Y'){
-        printf("Slow Down\n");
+        printf("Slow Down");
     }else{
-        printf("Invalid Input\n");
+        printf("Invalid Input");
     }
     return 0;
 }
