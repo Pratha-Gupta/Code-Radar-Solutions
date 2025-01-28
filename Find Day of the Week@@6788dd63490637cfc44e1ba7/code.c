@@ -7,7 +7,7 @@ int main() {
     }else if(day==2){
         printf("Tuesday\n");
     }else if(day==3){
-        printf("Wednesday\n")
+        printf("Wednesday\n");
     }else if(day==4){
         printf("Thursday\n");
     }else if(day==5){
