@@ -2,13 +2,13 @@
 int main() {
     char as;
     scanf("%c",&as);
-    if(as==A){
+    if(as=='A'){
         printf("Excellent\n");
-    }else if(as==B){
+    }else if(as=='B'){
         printf("Good\n");
-    }else if(as==C){
+    }else if(as=='C'){
         printf("Average\n");
-    }else if(as==D){
+    }else if(as=='D'){
         printf("Below Average\n");
     }else{
         printf("False\n");
