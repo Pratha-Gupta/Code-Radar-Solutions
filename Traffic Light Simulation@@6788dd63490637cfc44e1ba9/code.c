@@ -5,9 +5,9 @@ int main() {
     if(sign =='R'){
         printf("Stop");
     }else if(sign=='G'){
-        printf("Go");
+        printf("Go\n");
     }else if(sign=='Y'){
-        printf("Slow Down");
+        printf("Slow Down\n");
     }else{
         printf("Invalid Input");
     }
