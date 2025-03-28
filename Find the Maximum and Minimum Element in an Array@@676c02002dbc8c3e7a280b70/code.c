@@ -5,7 +5,7 @@ int main(){
     int min = arr[0];
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        scanf("%d ",&arr[i])
+        scanf("%d ",&arr[i]);
     }
     for(i+1;i<=n;i++){
         if(min>arr[i]){
