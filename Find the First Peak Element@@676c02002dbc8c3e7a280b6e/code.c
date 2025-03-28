@@ -14,6 +14,12 @@ int main(){
                     max=arr[i];
                     break;
                 }    
+                if(n==0){
+                    if(arr[i]>arr[i+1]){
+                        max=arr[i];
+                        break;
+                    }
+                }
             }
         if((arr[i] > arr[i+1])  && (arr[i]> arr[i-1])){
             max = arr[i];
