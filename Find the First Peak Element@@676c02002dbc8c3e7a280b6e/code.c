@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
     int i, n ;
-    int max = -1;
+    int max ;
     scanf("%d\n",&n);
     int arr[n];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(i=0;i<n;i++){
-        if(max <arr[i]){
+        if((arr[i] > arr[i+1])  && (arr[i]> arr[i-1])){
             max = arr[i];
         }
         }
