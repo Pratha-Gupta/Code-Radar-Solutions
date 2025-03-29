@@ -14,7 +14,7 @@ int main(){
             check = 0 ;
         }
 }
-if(check==1){
+if(check=1){
     printf("Sorted\n");
 }else{
     printf("Not Sorted");
