@@ -12,7 +12,7 @@ int main(){
             check = 0;
         }
 }
-if(check==0){
+if(check){
     printf("Sorted\n");
 }else{
     printf("Not Sorted");
