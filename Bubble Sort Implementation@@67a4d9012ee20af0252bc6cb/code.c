@@ -19,7 +19,7 @@ void printArray(int arr[], int n){
 }
 int main(){
     int n;
-    scanf("%d",&n):
+    scanf("%d",&n);
     int arr[n];
     for(int i=o;i<n;i++){
         scanf("%d",&arr[i]);
