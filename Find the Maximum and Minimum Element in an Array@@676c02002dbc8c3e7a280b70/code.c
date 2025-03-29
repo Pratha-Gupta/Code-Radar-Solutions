@@ -13,8 +13,6 @@ int main(){
     for(i=1;i<=n;i++){
         if(min>arr[i]){
             min =arr[i];
-        }else{
-            arr[0] = min;
         }
     }
     for(i=1;i<=n;i++){
