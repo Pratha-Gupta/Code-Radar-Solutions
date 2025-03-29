@@ -7,14 +7,13 @@ int main(){
         scanf("%d",&n);
     }
     
-    for( i = 1;j=n;i<j; i++; j--){
+    for( i = 0;j=n-1 ; i<j; i++; j--){
         if(arr[i]=arr[j]){
-            printf("YES");
+            printf("YES\n");
         }else{
             printf("NO");
         }
 
         
-    }
-    
+}
 }
