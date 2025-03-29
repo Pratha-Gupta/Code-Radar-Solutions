@@ -13,7 +13,7 @@ int main(){
         }
     }
     for(i=1;i<=n;i++){
-        if(min>arr[i]){
+        if(max<arr[i]){
             max=arr[i];
         }
     }
