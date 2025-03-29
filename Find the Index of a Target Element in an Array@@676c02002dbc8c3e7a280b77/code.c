@@ -10,6 +10,8 @@ int main(){
 for(i=0;i<n;i++){
     if(a==arr[i]){
         printf("%d",i);
-    }
+    }else[
+        printf("-1");
+    ]
 }
 }
