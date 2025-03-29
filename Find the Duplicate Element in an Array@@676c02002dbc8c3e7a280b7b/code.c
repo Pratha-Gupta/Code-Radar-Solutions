@@ -15,8 +15,9 @@ int main(){
 
             }
         }
-        printf("%d", num);
+        
         
     }
+    printf("%d", num);
      
 }
