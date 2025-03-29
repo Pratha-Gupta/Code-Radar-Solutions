@@ -17,7 +17,7 @@ int main(){
         }
         
     }for(i=0;i<=n-1;i++){
-        if(n<2 || arr[n-2]==arr[n]){
+        if(n<2 || arr[i]==arr[i+1]){
             printf("-1\n");
         }
     }
