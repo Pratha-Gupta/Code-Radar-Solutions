@@ -6,8 +6,8 @@ int main(){
     for(i=1;i<=n;i++){
         scanf("%d",&n);
     }
-    int j=n;
-    for(int i = 1;i<j;i++;j--){
+    
+    for( i = 1;j=n;i<=j;i++;j--){
         if(arr[i]=arr[j]){
             printf("YES");
         }else{
