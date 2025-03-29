@@ -10,10 +10,11 @@ int main(){
     for(i=0;i<n;i++){
         if(k=arr[i]){
             count += 1 ;
-            printf("%d",count);
+            
            
 
         }
     }
     printf("%d",count);
+   
 }
