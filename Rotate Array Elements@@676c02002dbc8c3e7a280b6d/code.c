@@ -1,6 +1,7 @@
 #include<stdio.h>
 void reverse(int arr[],int a, int b){
-    for(int i=a;int j=b;i<j;i++,j--){
+    int j =b;
+    for(int i =a;i<j;i++,j--){
         int temp=arr[i];
         arr[i]=arr[j];
         arr[j]=temp;
@@ -9,7 +10,7 @@ void reverse(int arr[],int a, int b){
 }
 int main(){
     int i,j,n,k;
-    sacnf("%d",&n);
+    scanf("%d",&n);
     for(i=1;i<=n,i++){
         scanf("%d ",&arr[i]);
     }
