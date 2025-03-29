@@ -9,12 +9,12 @@ int main(){
     }
     for(i=0;i<=n-1;i++){
         if(arr[i]<=arr[i+1]){
-            check = 0;
+            check = 1;
         }else{
             check = 1 ;
         }
 }
-if(check==0){
+if(check=1){
     printf("Sorted\n");
 }else{
     printf("Not Sorted");
