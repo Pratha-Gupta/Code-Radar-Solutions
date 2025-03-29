@@ -19,7 +19,10 @@ int main(){
         if(max<arr[i]){
             max=arr[i];
         }
-    }
+    }if(n>1){
     printf("%d %d",min,max);
+    }else{
+        printf("%d %d",arr[1],arr[1]);
+    }
     return 0;
 }
