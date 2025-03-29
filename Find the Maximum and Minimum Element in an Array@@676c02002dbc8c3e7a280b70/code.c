@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdio.h>
+#include<limits.h>
 int main(){
     int i, n ;
     int max=-1 ;
