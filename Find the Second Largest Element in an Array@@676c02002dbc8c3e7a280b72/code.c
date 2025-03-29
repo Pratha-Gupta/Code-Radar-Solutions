@@ -13,10 +13,13 @@ int main(){
                 int temp = arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=arr[j];
-                
-            }
+                }
         }
         
+    }for(i=0;i<=n-1;i+=){
+        if(n<2 || arr[n-2]==arr[n]){
+            printf("-1\n");
+        }
     }
     printf("%d",arr[n-2]);
 }
