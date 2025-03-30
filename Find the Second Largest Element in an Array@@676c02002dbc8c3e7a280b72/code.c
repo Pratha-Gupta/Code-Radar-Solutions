@@ -16,9 +16,10 @@ int main(){
                 }
         }
         
-    }for(i=0;i<=n-1;i++){
-        if(n<2 || arr[n-2]==arr[n]){
+    }for(i=n-1;i>=0;i--){
+        if(arr[i]!=arr[n-1]){
             printf("-1\n");
+            break;
         }
     }
     printf("%d",arr[n-2]);
