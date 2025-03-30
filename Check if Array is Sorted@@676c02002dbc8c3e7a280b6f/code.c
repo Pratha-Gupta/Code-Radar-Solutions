@@ -11,7 +11,7 @@ int main(){
     for(i=0;i<n-1;i++){
         if(arr[i]>arr[i+1]){
             check=0 ;
-            
+            break ;
         }
 }
 if(check){
