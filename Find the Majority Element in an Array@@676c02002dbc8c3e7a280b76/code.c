@@ -13,7 +13,9 @@ int main(){
                 
             }
         }if(count1 < count2){
+            count1 = count2;
             num = arr[i] ;
+            
         }
     }
     if(count1>=(n/2)){
