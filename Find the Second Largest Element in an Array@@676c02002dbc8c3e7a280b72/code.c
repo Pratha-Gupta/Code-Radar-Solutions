@@ -16,11 +16,14 @@ int main(){
                 }
         }
         
-    }for(i=n-1;i>=0;i--){
+    }
+    int check = -1 ;
+    for(i=n-1;i>=0;i--){
         if(arr[i]!=arr[n-1]){
-            printf("-1\n");
+            check = arr[i];
             break;
         }
     }
-    printf("%d",arr[n-2]);
+
+    printf("%d",arr[i]);
 }
