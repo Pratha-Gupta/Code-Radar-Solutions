@@ -1,4 +1,4 @@
-int isPrime(int num){
+void isPrime(int num){
     if(num <=1){
         return 0;
     }
@@ -14,5 +14,6 @@ int isPrime(int num){
     }else{
         return 0 ;
     }
+    return ;
     
 }
