@@ -14,15 +14,18 @@ int main(){
                 arr[j+1]=temp;
                 }
         }
-        int check =1 ;
         
-    }for(i=0;i<=n-1;i++){
+        
+    }
+    int check = 1 ;
+    for(i=0;i<=n-1;i++){
         if(n<2 || arr[i]==arr[i+1]){
-            check =1;
+            check =0;
         }
-    }if(check){
-    printf("-1\n");
+    }if(check == 1 ){
+         printf("%d",arr[1]);
+    
     }else{
-        printf("%d",arr[1]);
+        printf("-1\n");
     }
 }
