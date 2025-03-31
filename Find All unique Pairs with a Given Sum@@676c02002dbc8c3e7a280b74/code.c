@@ -19,6 +19,7 @@ int main(){
         if(check ==0){
             printf("%d %d\n", arr[i], arr[j]);
             check =1 ;
+            break ;
         }
     }
 
