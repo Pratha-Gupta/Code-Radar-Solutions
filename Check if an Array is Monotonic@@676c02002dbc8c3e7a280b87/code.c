@@ -8,14 +8,14 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int count=0;
-    for(i=0;i<n;i++){
-        if(arr[i]<=arr[i+1]){
-            count += 1;
-        }else if(arr[i]>=arr[i+1]){
-            count += 1;
+    for(i=0;i<n-1;i++){
+        if(arr[i]<arr[i+1]){
+            count ;
+        }else if(arr[i]>arr[i+1]){
+            count ;
         }
     }
-    if(count==1){
+    if(count){
         printf("YES\n");
     }else{
         printf("NO");
