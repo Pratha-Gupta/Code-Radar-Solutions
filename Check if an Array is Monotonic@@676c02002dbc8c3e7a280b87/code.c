@@ -10,9 +10,9 @@ int main(){
     int count=0;
     for(i=0;i<n;i++){
         if(arr[i]<arr[i+1]){
-            count +=1
+            count += 1;
         }else if(arr[i]>arr[j+1]){
-            count +=1;
+            count += 1;
         }
     }
     if(count==1){
@@ -20,3 +20,4 @@ int main(){
     }else{
         printf("NO");
     }
+}
