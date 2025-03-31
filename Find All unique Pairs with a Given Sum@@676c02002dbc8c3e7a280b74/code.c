@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     int n, i,j ,t;
+    int a , b ;
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<=n-1;i++){
@@ -15,11 +16,14 @@ int main(){
                 break;
                 
             }
-        }
-        if(check ==0){
+        }if(a!=arr[i] && b!=arr[j]){
+            if(check ==0){
+            a = arr[i];
+            b = arr[j];
             printf("%d %d\n", arr[i], arr[j]);
             check =1 ;
            
+        }
         }
     }
 
