@@ -7,12 +7,13 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int count=0;
+    int count=1;
     for(i=0;i<n-1;i++){
         if(arr[i]<arr[i+1]){
-            count ;
-        }else if(arr[i]>arr[i+1]){
-            count ;
+            count=0;
+        }
+        if(arr[i]>arr[i+1]){
+            count=0 ;
         }
     }
     if(count){
@@ -20,4 +21,5 @@ int main(){
     }else{
         printf("NO");
     }
+    return 0;
 }
