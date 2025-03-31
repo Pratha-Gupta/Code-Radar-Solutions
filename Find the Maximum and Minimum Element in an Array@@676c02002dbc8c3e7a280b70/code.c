@@ -1,20 +1,22 @@
 #include<stdio.h>
 int main(){
-    int n ,i,temp,j;
+    int n ,i;
     scanf("%d\n",&n);
     int arr[n];
     for(i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
+    int min=arr[0];
+    int max=arr[0];
     for(i=0;i<n;i++){
-        for(j=0;j<n-i;j++){
-            if(arr[j]>arr[j+1]){
-                temp = arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
-                }
+        if(arr[i]>max){
+            max=arr[i];
         }
     }
-    printf("%d %d",arr[0],arr[n-1]);
-    return 0;
+     for(i=0;i<n;i++){
+        if(arr[i]<min){
+            min=arr[i];
+        }
+    }
+    printf("%d %d",min,max);
 }
