@@ -18,7 +18,7 @@ int main(){
         
     }
     int check = -1 ;
-    for(i=0;i<=n-1;i++){
+    for(i=n-1;i>=0;i++){
         if(arr[0]!=arr[i] ){
             check =arr[i];
             break;
