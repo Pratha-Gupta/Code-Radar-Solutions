@@ -16,10 +16,11 @@ int main(){
                 break;
                 
             }
-            a = arr[i];
-            b = arr[j];
+            
         }if(a!=arr[i] && b!=arr[j]){
             if(check ==0){
+            a = arr[i];
+            b = arr[j];
             
             printf("%d %d\n", arr[i], arr[j]);
             check =1 ;
