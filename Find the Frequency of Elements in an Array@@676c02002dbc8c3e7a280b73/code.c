@@ -2,7 +2,7 @@
 int main(){
     int i, n ;
     scanf("%d/n",&n);
-    int arr[n];
+    int arr[n],visit[n];
     for(i=0;i<n;i++){
         scanf("%d ",&arr[i]);
         visit[i]=0;
