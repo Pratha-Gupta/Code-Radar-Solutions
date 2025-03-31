@@ -2,7 +2,7 @@ int isPrime(int num){
     if(num <=1){
         return 0;
     }
-    int count;
+    int count=0;
     for(int i=1;i<=num;i++){
         if(num%i==0){
             count++ ;
@@ -14,6 +14,4 @@ int isPrime(int num){
     }else{
         return 0 ;
     }
-
-    
 }
