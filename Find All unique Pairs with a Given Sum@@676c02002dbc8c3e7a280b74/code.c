@@ -16,7 +16,7 @@ int main(){
                 
             }
         }
-        if(sorted){
+        if(check){
             printf("%d %d", arr[i], arr[j]);
         }
     }
