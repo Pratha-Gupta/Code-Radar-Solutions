@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&t);
     int check = 1;
     for(i=0;i<=n-1;i++){
-        for(j=0;j<n;j++){
+        for(j=i+1;j<n;j++){
             if(arr[i] +arr[j]==t){
                 check = 0 ;
                 break;
