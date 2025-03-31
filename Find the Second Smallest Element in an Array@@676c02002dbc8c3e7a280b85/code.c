@@ -17,16 +17,12 @@ int main(){
         
         
     }
-    int check = 1 ;
+    int check = -1 ;
     for(i=0;i<=n-1;i++){
-        if(n<2 ||arr[i]==arr[i+1] ){
-            check =0;
+        if(arr[1]!=arr[i] ){
+            check =arr[i];
+            break;
         }
        
-    }if(check == 1 ){
-         printf("%d",arr[1]);
-    
-    }else{
-        printf("-1\n");
-    }
+    printf("%d",check);
 }
