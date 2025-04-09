@@ -13,9 +13,9 @@ int main(){
             if(arr[i]%j==0){
                 count ++;
             }
-            if(count==2){
+            
+        }if(count==2){
             check++;
-        }
         }
         
     }
