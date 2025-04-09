@@ -7,6 +7,9 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int isPrime(int num){
+        if(num<=1){
+            return 0;
+        }
         for(int i=0;i<=num;i++){
             if(num%2==0){
                 return 1;
