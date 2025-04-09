@@ -13,10 +13,11 @@ int main(){
             if(arr[i]%2==0){
                 count ++;
             }
-        }
-        if(count==2){
+            if(count==2){
             check++;
         }
+        }
+        
     }
     printf("%d",check);
     
